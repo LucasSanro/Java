@@ -1,0 +1,31 @@
+package com.java.br;
+
+public class testeConta {
+	public static void main(String[] args) {
+		conta contaCorrente =new conta();
+		conta contaPoupanca = new conta();
+		conta contaInvestimento = new conta();
+		
+		contaCorrente.numero=11;
+		contaCorrente.saldo= 20.9;
+		contaCorrente.cliente.nome="Lucas";
+		contaCorrente.cliente.idade=23;
+		
+		
+		contaPoupanca.numero=10;
+		contaPoupanca.saldo=78.92;
+		contaPoupanca.cliente.nome="Ygor";
+		contaPoupanca.cliente.idade=27;
+		
+		
+		contaInvestimento.numero=9;
+		contaInvestimento.saldo=50.78;
+		contaInvestimento.cliente.nome="Danillo";
+		contaInvestimento.cliente.idade=24;
+		
+		System.out.println(contaCorrente.numero);
+		System.out.println(contaCorrente.saldo);
+		System.out.println(contaCorrente.cliente.nome);
+	}
+
+}

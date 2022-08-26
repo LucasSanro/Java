@@ -1,0 +1,11 @@
+package praticandoClass;
+
+public class praticandoclass {
+
+	public static void main(String[] args) {
+		new Conta();
+		
+
+	}
+
+}
